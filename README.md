@@ -4,10 +4,12 @@ Sample Java library we use at LinkedIn to try out open source integrations
 
 ## Usage
 
-Run:
+To publish to ~/local-repo, run:
 
-    ./gradlew publish
+    ./gradlew publishToLocalRepo
 
-Maven repo with pom and jar file was created under:
+Observe jar and pom created under:
 
-    build/repo
+    ~/local-repo/com/sample/java/library
+
+

@@ -29,3 +29,9 @@ publishing {
         }
     }
 }
+
+task publishToLocalRepo(type: Copy) {
+    dependsOn "publish"
+    from "$buildDir/repo"
+    into "${System.getProperty('user.home')}/local-repo"
+}
