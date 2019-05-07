@@ -11,4 +11,8 @@ public class Library {
     public void fancyFeature() {
 
     }
+
+    public String describe() {
+        return "Hi! I am a library!";
+    }
 }
