@@ -15,4 +15,8 @@ public class Library {
     public String describe() {
         return "Hi! I am a library!";
     }
+
+    public String describe2() {
+        return "Hi! I am a library!";
+    }
 }
