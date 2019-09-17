@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'sample-java-library'
+
+include "api", "impl"
